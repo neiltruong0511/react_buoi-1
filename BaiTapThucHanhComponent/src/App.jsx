@@ -1,4 +1,5 @@
 import Banner from "./BaiTapThucHanhLayout/Banner"
+import Body from "./BaiTapThucHanhLayout/Body"
 import Footer from "./BaiTapThucHanhLayout/Footer"
 import Header from "./BaiTapThucHanhLayout/Header"
 import Item from "./BaiTapThucHanhLayout/Item"
@@ -12,8 +13,7 @@ function App() {
     <>
       <div className="flex min-h-screen flex-col">
         <Header/>
-        <Banner/>
-        <Item/>
+        <Body/>
         <Footer/>
       </div>
       
